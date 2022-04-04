@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis' Penny Flip Game</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <!-- h1 for page title  -->
+    <h1>Penny Flip Game</h1>
+    <!-- penny image  -->
+    <img src="./assets/images/penny-heads.jpg" alt="penny image">
+    <!-- two buttons, one is for penny flip other is to clear scoreboard -->
+    <div id="btn-div">
+        <button id="flip">Flip The Penny!</button>
+        <button id="clear">Clear Scoreboard</button>
+    </div>
+
+    <!-- h3 for result header  -->
+    <h3 id="message-header">Let's Get Rolling!
+    </h3>
+    <!-- hr tag -->
+    <hr>
+    <!-- table with a thead and tbody. both thead and tbody contain one tr with 4 th children -->
+    <table>
+        <thead>
+            <tr>
+                <th>Number of Heads</th>
+                <th>Percentage Heads</th>
+                <th>Number of Tails</th>
+                <th>Percentage Tails</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>0</th>
+                <th>0%</th>
+                <th>0</th>
+                <th>0%</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
